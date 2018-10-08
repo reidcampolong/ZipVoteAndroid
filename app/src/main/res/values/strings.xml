@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ZipVote</string>
+    <string name="title_activity_reid">ReidActivity</string>
 </resources>
