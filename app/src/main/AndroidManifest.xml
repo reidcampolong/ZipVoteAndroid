@@ -19,6 +19,10 @@
         <activity
             android:name=".ReidActivity"
             android:label="@string/title_activity_reid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReidSecondActivity"
+            android:label="@string/title_activity_reid_second"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
