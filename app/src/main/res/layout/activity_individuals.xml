@@ -7,96 +7,90 @@
     tools:context=".IndividualsActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/individualsTitle"
         android:layout_width="176dp"
         android:layout_height="48dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="97dp"
-        android:layout_marginLeft="97dp"
-        android:layout_marginTop="33dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="34dp"
         android:text="Individuals"
         android:textSize="36sp"
         tools:layout_editor_absoluteX="104dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageCan1"
         android:layout_width="87dp"
         android:layout_height="89dp"
-        android:layout_alignStart="@+id/textView3"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_alignTop="@+id/textView3"
-        android:layout_marginStart="-151dp"
-        android:layout_marginLeft="-151dp"
+        android:layout_alignStart="@+id/shortCan1"
+        android:layout_alignLeft="@+id/shortCan1"
+        android:layout_alignTop="@+id/shortCan1"
+        android:layout_marginStart="-149dp"
+        android:layout_marginLeft="-149dp"
         android:layout_marginTop="-2dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        tools:layout_editor_absoluteY="86dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:src="@drawable/man"
+        tools:layout_editor_absoluteY="86dp" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageCan3"
         android:layout_width="87dp"
         android:layout_height="89dp"
-        android:layout_alignStart="@+id/textView5"
-        android:layout_alignLeft="@+id/textView5"
-        android:layout_alignTop="@+id/textView5"
-        android:layout_marginStart="-149dp"
-        android:layout_marginLeft="-149dp"
-        android:layout_marginTop="-1dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        tools:layout_editor_absoluteY="223dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_alignStart="@+id/shortCan3"
+        android:layout_alignLeft="@+id/shortCan3"
+        android:layout_alignTop="@+id/shortCan3"
+        android:layout_marginStart="-150dp"
+        android:layout_marginLeft="-150dp"
+        android:src="@drawable/girl"
+        tools:layout_editor_absoluteY="223dp" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageCan2"
         android:layout_width="87dp"
         android:layout_height="89dp"
-        android:layout_alignStart="@+id/textView4"
-        android:layout_alignLeft="@+id/textView4"
-        android:layout_alignTop="@+id/textView4"
+        android:layout_alignStart="@+id/shortCan2"
+        android:layout_alignLeft="@+id/shortCan2"
+        android:layout_alignTop="@+id/shortCan2"
         android:layout_marginStart="-150dp"
         android:layout_marginLeft="-150dp"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="360dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:src="@drawable/ma2" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/shortCan1"
         android:layout_width="172dp"
         android:layout_height="77dp"
-        android:layout_alignStart="@+id/textView4"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="131dp"
-        android:text="Example Candidate 1: this is example candidate 1's biography. They are a Republican"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="86dp" />
+        android:layout_alignStart="@+id/shortCan2"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="98dp"
+        android:text="Example Candidate 1: this is example candidate 1's biography. They are a Republican" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/shortCan2"
         android:layout_width="172dp"
         android:layout_height="77dp"
-        android:layout_alignStart="@+id/textView5"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="255dp"
-        android:text="Example Candidate 2: this is example candidate 2's biography. They are a Republican"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="223dp" />
+        android:layout_below="@+id/imageCan1"
+        android:layout_alignStart="@+id/shortCan3"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:text="Example Candidate 2: this is example candidate 2's biography. They are a Republican" />
 
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="172dp"
-        android:layout_height="77dp"
+        android:id="@+id/shortCan3"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageCan2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp"
-        android:layout_marginBottom="66dp"
-        android:text="Example Candidate 3: this is example candidate 1's biography. They are a Democrat"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="360dp" />
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+
+
+        android:text="Example Candidate 3: this is example candidate 1's biography. They are a Democrat" />
 </RelativeLayout>
