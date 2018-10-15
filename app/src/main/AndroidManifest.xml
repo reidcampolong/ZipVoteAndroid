@@ -24,7 +24,9 @@
             android:name=".ReidSecondActivity"
             android:label="@string/title_activity_reid_second"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".djd6621"></activity>
+        <activity android:name=".djd6621" />
+        <activity android:name=".IndividualsActivity" />
+        <activity android:name=".IndividualActivity"></activity>
     </application>
 
 </manifest>
