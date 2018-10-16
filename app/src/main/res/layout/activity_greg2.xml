@@ -13,7 +13,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="318dp"
-        android:text="Issue 2"
+        android:text="Abortion"
         tools:layout_editor_absoluteX="79dp"
         tools:layout_editor_absoluteY="230dp" />
 
@@ -24,7 +24,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp"
-        android:text="Issue 1"
+        android:text="Equal Rights"
         tools:layout_editor_absoluteX="79dp"
         tools:layout_editor_absoluteY="16dp" />
 
@@ -35,7 +35,7 @@
         android:layout_alignStart="@+id/textView3"
         android:layout_alignParentTop="true"
         android:layout_marginTop="328dp"
-        android:text="Brief description of Issue #2. Includes arguments and reasoning."
+        android:text="Brief description of abortion. Includes arguments and reasoning."
         tools:layout_editor_absoluteX="86dp"
         tools:layout_editor_absoluteY="118dp" />
 
@@ -49,7 +49,7 @@
         android:layout_marginStart="114dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="90dp"
-        android:text="Brief description of Issue #1. Includes arguments and reasoning."
+        android:text="Brief description of equal rights. Includes arguments and reasoning."
         tools:layout_editor_absoluteX="86dp"
         tools:layout_editor_absoluteY="325dp" />
 

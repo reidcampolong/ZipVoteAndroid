@@ -17,11 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".djd6621" />
+        <activity android:name=".djd6621second" />
         <activity android:name=".IndividualsActivity" />
         <activity android:name=".SearchActivity" />
         <activity android:name=".IndividualActivity" />
         <activity android:name=".GregActivity" />
         <activity android:name=".Greg2Activity" />
+        <activity android:name=".jpa" />
         <activity android:name=".John_Candidates_by_color"></activity>
     </application>
 

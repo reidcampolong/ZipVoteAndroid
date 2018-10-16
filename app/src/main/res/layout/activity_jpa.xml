@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".jpa">
+    android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/issueTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="416dp"
         android:lineSpacingExtra="12sp"
         android:text="Issue"
-        android:textAlignment="viewStart"
         android:textSize="36sp"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="149dp" />
 
-    <EditText
-        android:id="@+id/Issue_disc"
+    <TextView
+        android:id="@+id/issueRedText"
         android:layout_width="327dp"
         android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="70dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:singleLine="false"
@@ -34,27 +38,32 @@
         tools:layout_editor_absoluteY="351dp"
         tools:text="Red Text" />
 
-    <EditText
-        android:id="@+id/editText10"
+    <TextView
+        android:id="@+id/issueGreenList"
         android:layout_width="328dp"
-        android:layout_height="73dp"
+        android:layout_height="63dp"
+        android:layout_alignStart="@+id/issueRedText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="180dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Green Text"
         android:textAlignment="center"
         android:textColor="@android:color/holo_green_dark"
+        android:textSize="22sp"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="422dp" />
 
-    <EditText
-        android:id="@+id/editText11"
-        android:layout_width="325dp"
-        android:layout_height="215dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Discription of issue"
-        android:textAlignment="textStart"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="118dp" />
+    <TextView
+        android:id="@+id/issueDescription"
+        android:layout_width="286dp"
+        android:layout_height="226dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="88dp"
+        android:text="Issue Description" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
