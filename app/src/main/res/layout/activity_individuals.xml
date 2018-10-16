@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndividualsActivity">
+
+    <TextView
+        android:id="@+id/individualsTitle"
+        android:layout_width="176dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="34dp"
+        android:text="Individuals"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageCan1"
+        android:layout_width="87dp"
+        android:layout_height="89dp"
+        android:layout_alignStart="@+id/shortCan1"
+        android:layout_alignLeft="@+id/shortCan1"
+        android:layout_alignTop="@+id/shortCan1"
+        android:layout_marginStart="-149dp"
+        android:layout_marginLeft="-149dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/man"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <ImageView
+        android:id="@+id/imageCan3"
+        android:layout_width="87dp"
+        android:layout_height="89dp"
+        android:layout_alignStart="@+id/shortCan3"
+        android:layout_alignLeft="@+id/shortCan3"
+        android:layout_alignTop="@+id/shortCan3"
+        android:layout_marginStart="-150dp"
+        android:layout_marginLeft="-150dp"
+        android:src="@drawable/girl"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <ImageView
+        android:id="@+id/imageCan2"
+        android:layout_width="87dp"
+        android:layout_height="89dp"
+        android:layout_alignStart="@+id/shortCan2"
+        android:layout_alignLeft="@+id/shortCan2"
+        android:layout_alignTop="@+id/shortCan2"
+        android:layout_marginStart="-150dp"
+        android:layout_marginLeft="-150dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="360dp"
+        android:src="@drawable/ma2" />
+
+    <TextView
+        android:id="@+id/shortCan1"
+        android:layout_width="172dp"
+        android:layout_height="77dp"
+        android:layout_alignStart="@+id/shortCan2"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="98dp"
+        android:text="Example Candidate 1: this is example candidate 1's biography. They are a Republican" />
+
+    <TextView
+        android:id="@+id/shortCan2"
+        android:layout_width="172dp"
+        android:layout_height="77dp"
+        android:layout_below="@+id/imageCan1"
+        android:layout_alignStart="@+id/shortCan3"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:text="Example Candidate 2: this is example candidate 2's biography. They are a Republican" />
+
+    <TextView
+        android:id="@+id/shortCan3"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageCan2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+
+
+        android:text="Example Candidate 3: this is example candidate 1's biography. They are a Democrat" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndividualActivity">
+
+    <TextView
+        android:id="@+id/indivName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Candidates Name"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ImageView
+        android:id="@+id/individualPhoto"
+        android:layout_width="78dp"
+        android:layout_height="75dp"
+        android:layout_alignStart="@+id/indivBio"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="73dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/indivParty"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/individualPhoto"
+        android:layout_alignEnd="@+id/indivBio"
+        android:text="Party"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/indivBio"
+        android:layout_width="288dp"
+        android:layout_height="359dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="186dp"
+        android:text="This is an example of candidates bio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" />
+</RelativeLayout>
