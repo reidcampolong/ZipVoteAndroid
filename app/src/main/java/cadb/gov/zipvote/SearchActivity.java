@@ -27,6 +27,20 @@ public class SearchActivity extends AppCompatActivity {
                 openNextScreen(IndividualsActivity.class);
             }
         });
+
+        issueButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                openNextScreen(Greg2Activity.class);
+            }
+        });
+
+        partyButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                openNextScreen(GregActivity.class);
+            }
+        });
     }
 
     private void openNextScreen(Class c){
