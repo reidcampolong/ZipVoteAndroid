@@ -1,84 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".djd6621second">
+    tools:context=".IndividualsActivity">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="100dp"
-        android:layout_height="114dp"
-        app:srcCompat="@android:drawable/picture_frame"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="89dp" />
-
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="261dp"
-        android:layout_height="66dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginRight="4dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Brief Description of Candidate"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="113dp" />
-
-    <EditText
-        android:id="@+id/editText6"
-        android:layout_width="255dp"
-        android:layout_height="66dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Brief Description of Candidate"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="252dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="100dp"
-        android:layout_height="114dp"
-        app:srcCompat="@android:drawable/picture_frame"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="230dp" />
-
-    <EditText
-        android:id="@+id/editText8"
-        android:layout_width="336dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:selectAllOnFocus="false"
-        android:singleLine="false"
-        android:text="               Democratic Candidates"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+    <TextView
+        android:id="@+id/democraticTitle"
+        android:layout_width="176dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="34dp"
+        android:text="Democrat"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="104dp"
         tools:layout_editor_absoluteY="16dp" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Go to Indiviudal Screen"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="447dp" />
+    <ImageView
+        android:id="@+id/imageDem1"
+        android:layout_width="87dp"
+        android:layout_height="89dp"
+        android:layout_alignStart="@+id/shortDem1"
+        android:layout_alignLeft="@+id/shortDem1"
+        android:layout_alignTop="@+id/shortDem1"
+        android:layout_marginStart="-149dp"
+        android:layout_marginLeft="-149dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/man"
+        tools:layout_editor_absoluteY="86dp" />
 
-    <EditText
-        android:id="@+id/editText9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Scroll bar leads to more"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="362dp" />
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageDem3"
+        android:layout_width="87dp"
+        android:layout_height="89dp"
+        android:layout_alignStart="@+id/shortDem3"
+        android:layout_alignLeft="@+id/shortDem3"
+        android:layout_alignTop="@+id/shortDem3"
+        android:layout_marginStart="-150dp"
+        android:layout_marginLeft="-150dp"
+        android:src="@drawable/girl"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <ImageView
+        android:id="@+id/imageDem2"
+        android:layout_width="87dp"
+        android:layout_height="89dp"
+        android:layout_alignStart="@+id/shortDem2"
+        android:layout_alignLeft="@+id/shortDem2"
+        android:layout_alignTop="@+id/shortDem2"
+        android:layout_marginStart="-150dp"
+        android:layout_marginLeft="-150dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="360dp"
+        android:src="@drawable/ma2" />
+
+    <TextView
+        android:id="@+id/shortDem1"
+        android:layout_width="172dp"
+        android:layout_height="77dp"
+        android:layout_alignStart="@+id/shortDem2"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="98dp"
+        android:text="Example Candidate 1: this is example candidate 1's biography. They are a Democrat" />
+
+    <TextView
+        android:id="@+id/shortDem2"
+        android:layout_width="172dp"
+        android:layout_height="77dp"
+        android:layout_below="@+id/imageDem1"
+        android:layout_alignStart="@+id/shortDem3"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:text="Example Candidate 2: this is example candidate 2's biography. They are a Democrat" />
+
+    <TextView
+        android:id="@+id/shortDem3"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageDem2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+
+
+        android:text="Example Candidate 3: this is example candidate 1's biography. They are a Democrat" />
+</RelativeLayout>
