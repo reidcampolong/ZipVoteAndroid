@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,30 +7,35 @@
     tools:context=".GregActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/partyRepub"
         android:layout_width="196dp"
         android:layout_height="118dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
         android:text="Republican"
         tools:layout_editor_absoluteX="94dp"
         tools:layout_editor_absoluteY="258dp" />
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Party"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="3dp" />
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/partyDemo"
         android:layout_width="196dp"
         android:layout_height="118dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="104dp"
         android:text="Democrat"
         tools:layout_editor_absoluteX="94dp"
         tools:layout_editor_absoluteY="95dp" />
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/partyTitle"
+        android:layout_width="103dp"
+        android:layout_height="62dp"
+        android:layout_alignStart="@+id/partyRepub"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="58dp"
+        android:text="Party"
+        android:textSize="36sp" />
+</RelativeLayout>
