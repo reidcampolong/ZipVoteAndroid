@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jpa">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="416dp"
+        android:lineSpacingExtra="12sp"
+        android:text="Issue"
+        android:textAlignment="viewStart"
+        android:textSize="36sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="149dp" />
+
+    <EditText
+        android:id="@+id/Issue_disc"
+        android:layout_width="327dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="351dp"
+        tools:text="Red Text" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="328dp"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Green Text"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="325dp"
+        android:layout_height="215dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Discription of issue"
+        android:textAlignment="textStart"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+</android.support.constraint.ConstraintLayout>
