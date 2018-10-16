@@ -17,8 +17,8 @@ public class IndividualsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_individuals);
 
-        ImageView candidate1 = findViewById(R.id.imageDem1);
-        ImageView candidate2 = findViewById(R.id.imageDem2);
+        ImageView candidate1 = findViewById(R.id.imageRed1);
+        ImageView candidate2 = findViewById(R.id.imageRep2);
         ImageView candidate3 = findViewById(R.id.imageCan3);
 
         candidate1.setOnClickListener(new View.OnClickListener(){
