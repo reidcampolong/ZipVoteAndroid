@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Greg2Activity">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="226dp"
+        android:layout_height="51dp"
+        android:text="Issue 2"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="226dp"
+        android:layout_height="51dp"
+        android:text="Issue 1"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="213dp"
+        android:layout_height="71dp"
+        android:text="Brief Description and list of candidates for the issue"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="213dp"
+        android:layout_height="71dp"
+        android:text="Brief Description and list of candidates for the issue"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+</android.support.constraint.ConstraintLayout>
