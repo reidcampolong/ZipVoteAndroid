@@ -23,24 +23,25 @@ public class Greg2Activity extends AppCompatActivity {
         IssueButton1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                openNextScreen();
+                openNextScreen("Equal Rights", "This is a short description about equal rights. Click to view candidates stances on this issue.", "Candidate 1, Candidate 2", "Candidate 3");
             }
         });
 
         IssueButton2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                openNextScreen();
+                openNextScreen("Abortion", "This is a short description about abortion. Click to view candidates stances on this issue.", "Candidate 1, Candidate 2", "Candidate 3");
             }
         });
 
     }
 
-    private void openNextScreen() {
+    private void openNextScreen(String issueName, String issueDesc, String proCan, String redCan) {
         Intent i = new Intent(this, jpa.class);
+        i.putExtra("NAME", issueName);
+        i.putExtra("DESC", issueDesc);
+        i.putExtra("PRO", proCan);
+        i.putExtra("RED", redCan);
         startActivity(i);
-    }
-
-
     }
 }

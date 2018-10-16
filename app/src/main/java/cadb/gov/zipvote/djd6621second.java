@@ -25,21 +25,21 @@ public class djd6621second extends AppCompatActivity {
         candidate1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                openNextScreen("Democrat1", "Democrat", "This is an example of Candidate 1's view points on different issues.");
+                openNextScreen("Candidate1", "Democrat", "This is an example of Candidate 1's view points on different issues.");
             }
         });
 
         candidate2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                openNextScreen("Democrat2", "Democrat", "This is an example of Candidate 2's view points on different issues.");
+                openNextScreen("Candidate2", "Democrat", "This is an example of Candidate 2's view points on different issues.");
             }
         });
 
         candidate3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                openNextScreen("Democrat3", "Democrat", "This is an example of Candidate 3's view points on different issues.");
+                openNextScreen("Candidate3", "Democrat", "This is an example of Candidate 3's view points on different issues.");
             }
         });
     }

@@ -22,7 +22,7 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <ImageView
-        android:id="@+id/imageRed1"
+        android:id="@+id/imageDem1"
         android:layout_width="87dp"
         android:layout_height="89dp"
         android:layout_alignStart="@+id/shortDem1"
@@ -49,7 +49,7 @@
         tools:layout_editor_absoluteY="223dp" />
 
     <ImageView
-        android:id="@+id/imageRep2"
+        android:id="@+id/imageDem2"
         android:layout_width="87dp"
         android:layout_height="89dp"
         android:layout_alignStart="@+id/shortGreen2"
@@ -74,7 +74,7 @@
         android:id="@+id/shortGreen2"
         android:layout_width="172dp"
         android:layout_height="77dp"
-        android:layout_below="@+id/imageRed1"
+        android:layout_below="@+id/imageDem1"
         android:layout_alignStart="@+id/shortRed3"
         android:layout_marginStart="0dp"
         android:layout_marginTop="30dp"
@@ -84,7 +84,7 @@
         android:id="@+id/shortRed3"
         android:layout_width="175dp"
         android:layout_height="75dp"
-        android:layout_below="@+id/imageRep2"
+        android:layout_below="@+id/imageDem2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"

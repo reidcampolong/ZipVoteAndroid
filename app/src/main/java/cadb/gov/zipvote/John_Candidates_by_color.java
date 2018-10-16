@@ -15,22 +15,22 @@ public class John_Candidates_by_color extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_djd6621second);
+        setContentView(R.layout.activity_john__candidates_by_color);
 
-        ImageView candidate1 = findViewById(R.id.imageRed1);
+        ImageView candidate1 = findViewById(R.id.imageDem1);
         ImageView candidate2 = findViewById(R.id.imageGreen2);
 
         candidate1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                openNextScreen("Red1", "Republican", "This is an example of Candidate 1's view points on different issues.");
+                openNextScreen("Candidate1", "Republican", "This is an example of Candidate 1's view points on different issues.");
             }
         });
 
         candidate2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                openNextScreen("Green2", "Democrat", "This is an example of Candidate 2's view points on different issues.");
+                openNextScreen("Candidate2", "Democrat", "This is an example of Candidate 2's view points on different issues.");
             }
         });
     }

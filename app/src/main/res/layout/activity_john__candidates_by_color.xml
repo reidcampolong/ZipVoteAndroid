@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageRed1"
+        android:id="@+id/imageDem1"
         android:layout_width="87dp"
         android:layout_height="89dp"
         android:layout_alignStart="@+id/shortDem1"
@@ -64,12 +64,12 @@
         android:id="@+id/shortGreen2"
         android:layout_width="172dp"
         android:layout_height="77dp"
-        android:layout_below="@+id/imageRed1"
+        android:layout_below="@+id/imageDem1"
         android:layout_alignStart="@+id/shortRed3"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginLeft="129dp"
         android:layout_marginTop="372dp"
-        android:text="Example Candidate 2: this is example candidate 2's biography. They are a Republican"
+        android:text="Example Candidate 2: this is example candidate 2's biography. They are for this issue."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -77,7 +77,7 @@
         android:id="@+id/shortRed3"
         android:layout_width="178dp"
         android:layout_height="75dp"
-        android:layout_below="@+id/imageRep2"
+        android:layout_below="@+id/imageDem2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
@@ -86,7 +86,7 @@
         android:layout_marginStart="136dp"
         android:layout_marginLeft="136dp"
         android:layout_marginTop="160dp"
-        android:text="Example Candidate 3: this is example candidate 1's biography. They are a Republican"
+        android:text="Example Candidate 1: this is example candidate 1's biography. They are against this issue."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
