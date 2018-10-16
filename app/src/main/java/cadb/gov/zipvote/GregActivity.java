@@ -8,44 +8,35 @@ import android.widget.Button;
 
 public class GregActivity extends AppCompatActivity {
 
-    private Button RepublicanButton;
-
-    private Button DemocratButton;
-
+    private Button republicanButton;
+    private Button democratButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_greg);
 
-        RepublicanButton = (Button) findViewById(R.id.partyRepub);
+        republicanButton = (Button) findViewById(R.id.partyRepub);
+        democratButton = (Button) findViewById(R.id.partyDemo);
 
-        RepublicanButton.setOnClickListener(new View.OnClickListener(){
+        republicanButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                openNextScreen1();
+                openNextScreen(djd6621.class);
             }
         });
 
-        DemocratButton = (Button) findViewById(R.id.partyDemo);
-
-        RepublicanButton.setOnClickListener(new View.OnClickListener(){
+        democratButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                openNextScreen2();
+                openNextScreen(djd6621second.class);
             }
         });
 
     }
 
-    private void openNextScreen1() {
-        Intent i = new Intent(this, djd6621.class);
-        startActivity(i);
-    }
-
-
-    private void openNextScreen2() {
-        Intent i = new Intent(this, djd6621second.class);
+    private void openNextScreen(Class c) {
+        Intent i = new Intent(this, c);
         startActivity(i);
     }
 }
