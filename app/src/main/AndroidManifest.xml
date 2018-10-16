@@ -28,7 +28,8 @@
         <activity android:name=".IndividualsActivity" />
         <activity android:name=".SearchActivity" />
         <activity android:name=".IndividualActivity" />
-        <activity android:name=".GregActivity"></activity>
+        <activity android:name=".GregActivity" />
+        <activity android:name=".Greg2Activity"></activity>
     </application>
 
 </manifest>
