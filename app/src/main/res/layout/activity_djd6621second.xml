@@ -28,9 +28,9 @@
         android:layout_alignStart="@+id/shortDem1"
         android:layout_alignLeft="@+id/shortDem1"
         android:layout_alignTop="@+id/shortDem1"
-        android:layout_marginStart="-149dp"
-        android:layout_marginLeft="-149dp"
-        android:layout_marginTop="-2dp"
+        android:layout_marginStart="-158dp"
+        android:layout_marginLeft="-158dp"
+        android:layout_marginTop="-4dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:src="@drawable/man"
@@ -40,11 +40,12 @@
         android:id="@+id/imageDem3"
         android:layout_width="87dp"
         android:layout_height="89dp"
-        android:layout_alignStart="@+id/shortDem3"
-        android:layout_alignLeft="@+id/shortDem3"
-        android:layout_alignTop="@+id/shortDem3"
-        android:layout_marginStart="-150dp"
-        android:layout_marginLeft="-150dp"
+        android:layout_alignStart="@+id/shortRed3"
+        android:layout_alignLeft="@+id/shortRed3"
+        android:layout_alignTop="@+id/shortRed3"
+        android:layout_marginStart="-136dp"
+        android:layout_marginLeft="-136dp"
+        android:layout_marginTop="-18dp"
         android:src="@drawable/girl"
         tools:layout_editor_absoluteY="223dp" />
 
@@ -52,45 +53,48 @@
         android:id="@+id/imageDem2"
         android:layout_width="87dp"
         android:layout_height="89dp"
-        android:layout_alignStart="@+id/shortDem2"
-        android:layout_alignLeft="@+id/shortDem2"
-        android:layout_alignTop="@+id/shortDem2"
-        android:layout_marginStart="-150dp"
-        android:layout_marginLeft="-150dp"
+        android:layout_alignStart="@+id/shortGreen2"
+        android:layout_alignLeft="@+id/shortGreen2"
+        android:layout_alignTop="@+id/shortGreen2"
+        android:layout_marginStart="-172dp"
+        android:layout_marginLeft="-172dp"
+        android:layout_marginTop="182dp"
+        android:src="@drawable/ma2"
         tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="360dp"
-        android:src="@drawable/ma2" />
+        tools:layout_editor_absoluteY="360dp" />
 
     <TextView
         android:id="@+id/shortDem1"
         android:layout_width="172dp"
         android:layout_height="77dp"
-        android:layout_alignStart="@+id/shortDem2"
-        android:layout_marginStart="-2dp"
+        android:layout_alignStart="@+id/shortGreen2"
+        android:layout_marginStart="-14dp"
         android:layout_marginTop="98dp"
         android:text="Example Candidate 1: this is example candidate 1's biography. They are a Democrat" />
 
     <TextView
-        android:id="@+id/shortDem2"
+        android:id="@+id/shortGreen2"
         android:layout_width="172dp"
         android:layout_height="77dp"
-        android:layout_below="@+id/imageDem1"
-        android:layout_alignStart="@+id/shortDem3"
-        android:layout_marginStart="0dp"
+        android:layout_below="@+id/imageRed1"
+        android:layout_alignStart="@+id/shortRed3"
+        android:layout_marginStart="35dp"
         android:layout_marginTop="30dp"
         android:text="Example Candidate 2: this is example candidate 2's biography. They are a Democrat" />
 
     <TextView
-        android:id="@+id/shortDem3"
+        android:id="@+id/shortRed3"
         android:layout_width="175dp"
         android:layout_height="75dp"
-        android:layout_below="@+id/imageDem2"
+        android:layout_below="@+id/imageRep2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+
+
         android:layout_marginRight="50dp"
-
-
+        android:layout_marginBottom="94dp"
         android:text="Example Candidate 3: this is example candidate 1's biography. They are a Democrat" />
 </RelativeLayout>

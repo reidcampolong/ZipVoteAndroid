@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".John_Candidates_by_color">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Candidates by Color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="51dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageRed1"
+        android:layout_width="87dp"
+        android:layout_height="89dp"
+        android:layout_alignStart="@+id/shortDem1"
+        android:layout_alignLeft="@+id/shortDem1"
+        android:layout_alignTop="@+id/shortDem1"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="148dp"
+        android:src="@drawable/man"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageGreen2"
+        android:layout_width="87dp"
+        android:layout_height="89dp"
+        android:layout_alignStart="@+id/shortRed3"
+        android:layout_alignLeft="@+id/shortRed3"
+        android:layout_alignTop="@+id/shortRed3"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/girl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/shortGreen2"
+        android:layout_width="172dp"
+        android:layout_height="77dp"
+        android:layout_below="@+id/imageRed1"
+        android:layout_alignStart="@+id/shortRed3"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="372dp"
+        android:text="Example Candidate 2: this is example candidate 2's biography. They are a Republican"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/shortRed3"
+        android:layout_width="178dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageRep2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="160dp"
+        android:text="Example Candidate 3: this is example candidate 1's biography. They are a Republican"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="272dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

@@ -21,7 +21,8 @@
         <activity android:name=".SearchActivity" />
         <activity android:name=".IndividualActivity" />
         <activity android:name=".GregActivity" />
-        <activity android:name=".Greg2Activity"></activity>
+        <activity android:name=".Greg2Activity" />
+        <activity android:name=".John_Candidates_by_color"></activity>
     </application>
 
 </manifest>
