@@ -6,29 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".John_Candidates_by_color">
 
-    <EditText
+    <TextView
         android:id="@+id/editText2"
-        android:layout_width="172dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
-        android:layout_marginLeft="104dp"
+        android:layout_width="297dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:text="Candidates by Color"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/editText3"
-        android:layout_width="51dp"
-        android:layout_height="54dp"
+        android:layout_width="187dp"
+        android:layout_height="45dp"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
         android:layout_marginTop="72dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Red"
+        android:text="AGAINST"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -81,8 +82,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-
-
         android:layout_marginStart="136dp"
         android:layout_marginLeft="136dp"
         android:layout_marginTop="160dp"
@@ -90,16 +89,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/editText4"
-        android:layout_width="79dp"
-        android:layout_height="wrap_content"
+        android:layout_width="102dp"
+        android:layout_height="39dp"
         android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginLeft="28dp"
         android:layout_marginTop="272dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Green"
+        android:text="PRO"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
