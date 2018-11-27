@@ -18,43 +18,6 @@
         tools:layout_editor_absoluteX="149dp" />
 
     <TextView
-        android:id="@+id/issueRedText"
-        android:layout_width="327dp"
-        android:layout_height="63dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="70dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:singleLine="false"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="22sp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="351dp"
-        tools:text="Red Text" />
-
-    <TextView
-        android:id="@+id/issueGreenList"
-        android:layout_width="328dp"
-        android:layout_height="63dp"
-        android:layout_alignStart="@+id/issueRedText"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="180dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Green Text"
-        android:textAlignment="center"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="22sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="422dp" />
-
-    <TextView
         android:id="@+id/issueDescription"
         android:layout_width="286dp"
         android:layout_height="226dp"
@@ -65,5 +28,17 @@
         android:layout_marginLeft="70dp"
         android:layout_marginTop="88dp"
         android:text="Issue Description" />
+
+    <Button
+        android:id="@+id/stancesButton"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/issueDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:text="VIEW STANCES"
+        android:textColor="@color/colorPrimary" />
 
 </RelativeLayout>

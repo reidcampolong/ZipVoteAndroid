@@ -22,8 +22,8 @@
 
     <Button
         android:id="@+id/indivualButton"
-        android:layout_width="264dp"
-        android:layout_height="wrap_content"
+        android:layout_width="265dp"
+        android:layout_height="75dp"
         android:layout_alignStart="@+id/searchBar"
         android:layout_alignParentTop="true"
         android:layout_marginStart="-10dp"
@@ -32,8 +32,8 @@
 
     <Button
         android:id="@+id/issueButton"
-        android:layout_width="263dp"
-        android:layout_height="wrap_content"
+        android:layout_width="265dp"
+        android:layout_height="75dp"
         android:layout_alignStart="@+id/indivualButton"
         android:layout_centerVertical="true"
         android:text="Issue" />
@@ -41,7 +41,7 @@
     <Button
         android:id="@+id/partyButton"
         android:layout_width="265dp"
-        android:layout_height="wrap_content"
+        android:layout_height="75dp"
         android:layout_alignStart="@+id/indivualButton"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="136dp"
